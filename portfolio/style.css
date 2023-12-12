@@ -1,0 +1,35 @@
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.detel h1{
+    font-size: 50px;
+    color: bisque;
+    margin-bottom:20px ;
+
+}
+span{
+    color: blue;
+
+}
+.detel p{
+    color: dimgrey;
+    line-height: 22px ;
+}
+.detel a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: wavy;
+    font-weight: bold;
+    color: azure;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px ;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
