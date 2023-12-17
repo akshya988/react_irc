@@ -1,0 +1,24 @@
+Question:
+Write a JavaScript function that takes an array of numbers and returns a new array containing only the even numbers. Use a loop in your solution.
+
+Coding:
+
+function filterEvenNumbers(size, numbers) {
+  const evenNumbers = [];
+  for (let i = 0; i < size; i++) {
+    if (numbers[i] % 2 === 0) {
+      evenNumbers.push(numbers[i]);
+    }
+  }
+  return evenNumbers;
+}
+
+
+const size = 8;
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+const evens = filterEvenNumbers(size, numbers);
+console.log(evens); // Output: [2, 4, 6, 8]
+
+
+Output:
+[ 2, 4, 6, 8 ]
